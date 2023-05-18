@@ -1,3 +1,5 @@
+package org.yu.farm;
+
 public class Cow extends Animal {
 
     public Cow(String name) {

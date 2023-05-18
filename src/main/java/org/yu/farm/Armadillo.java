@@ -1,11 +1,11 @@
+package org.yu.farm;
+
 public class Armadillo extends Animal {
+
     public Armadillo(String name) {
-        this(AnimalType.ARMADILLO, name);
+        super(AnimalType.ARMADILLO, name);
     }
 
-    public Armadillo(AnimalType species, String name) {
-        super(species, name);
-    }
 
     @Override
     public void makeNoise() {
