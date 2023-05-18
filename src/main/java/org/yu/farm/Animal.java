@@ -1,6 +1,8 @@
+package org.yu.farm;
+
 public abstract class Animal {
 
-    public Animal(AnimalType species, String name) {
+    protected Animal(AnimalType species, String name) {
         this.species = species;
         this.name = name;
     }
@@ -16,6 +18,11 @@ public abstract class Animal {
     public String getName() {
         return name;
     }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
 
     // Methods
     abstract public void makeNoise();
