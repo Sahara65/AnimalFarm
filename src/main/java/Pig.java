@@ -1,6 +1,10 @@
 public class Pig extends Animal {
 
-    public Pig(AnimalType species, String name) {
+    public Pig(String name) {
+        this(AnimalType.PIG, name);
+    }
+
+    private Pig(AnimalType species, String name) {
         super(species, name);
     }
 

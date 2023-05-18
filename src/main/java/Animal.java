@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
 
     public Animal(AnimalType species, String name) {
         this.species = species;
@@ -18,18 +18,7 @@ public class Animal {
     }
 
     // Methods
-    public void makeNoise() {
-
-        switch(species){
-            case CAT -> System.out.println("Meow");
-            case DUCK -> System.out.println("Quack");
-            case COW -> System.out.println("Mooo");
-            case HORSE -> System.out.println("Nay");
-            default -> System.out.println("whaaaa");
-
-        }
-
-    }
+    abstract public void makeNoise();
 
     public void eatUnderYonderTree() {
         System.out.println("Munch Crunch Sluuuurp");
