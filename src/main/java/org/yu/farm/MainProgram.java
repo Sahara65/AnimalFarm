@@ -2,6 +2,11 @@ package org.yu.farm;
 
 import java.util.List;
 
+/*
+ * LET'S TAKE A TRIP TO A FARM AND MEET SOME ANIMALS!
+ *
+ */
+
 public class MainProgram {
     public static void main(String[] args) {
         AnimalFarm myFarm = new AnimalFarm();
