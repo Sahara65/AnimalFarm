@@ -5,25 +5,25 @@ import java.util.List;
 public class MainProgram {
     public static void main(String[] args) {
         AnimalFarm myFarm = new AnimalFarm();
-        System.out.println(myFarm);
-
-
 
 
         List<Animal> animalList = myFarm.getAnimals();
 
 
-
+        // Let's meet each of the animals!
 
         for (Animal a : animalList) {
-            a.setName("Hey Bud");
-            System.out.printf("%s the %s says\n", a.getName(), a.getSpecies());
-            a.makeNoise();    // POLYMORPHIC call
-            a.eatUnderYonderTree();
+
+            System.out.println("Person: Oooh!  An animal!  Tell me about yourself!");
+            System.out.printf("Animal: Hello, I'm %s the %s \n", a.getName(), a.getSpecies());
+
+            // add a POLYMORPHIC call to makeNoise();
+            // add a POLYMORPHIC call to eatUnderYonderTree();
 
             if ( a instanceof Armadillo)
                 System.out.println("EEEEEK. AN ARMADILLO!");
 
+            System.out.println("");
 
         }
 

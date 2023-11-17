@@ -2,7 +2,7 @@ package org.yu.farm;
 
 public class Cat extends Animal {
 
-    protected Cat(String name) {
+    public Cat(String name) {
         super(AnimalType.CAT, name);
     }
 

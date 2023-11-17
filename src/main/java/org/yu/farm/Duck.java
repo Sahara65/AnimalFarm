@@ -3,7 +3,7 @@ package org.yu.farm;
 public class Duck extends Animal {
 
     public Duck(String name) {
-        this(AnimalType.PIG, name);
+        this(AnimalType.DUCK, name);
     }
 
     private Duck(AnimalType species, String name) {
