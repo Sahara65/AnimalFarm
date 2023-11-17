@@ -1,7 +1,7 @@
 package org.yu.farm;
 
+import org.yu.farm.scary.Armadillo;
 import org.yu.farm.scary.Jaguar;
-import org.yu.farm.scary.ScaryAnimal;
 import org.yu.farm.scary.ScaryCat;
 
 import java.util.ArrayList;

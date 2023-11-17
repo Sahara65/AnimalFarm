@@ -15,4 +15,8 @@ public class Goose extends Animal {
         System.out.println("Honk!  Honk!");
     }
 
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("Vicious peck peck");
+    }
 }

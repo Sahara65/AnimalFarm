@@ -1,10 +1,15 @@
 package org.yu.farm.scary;
 
-import org.yu.farm.Cat;
+import org.yu.farm.AnimalType;
 
-public final class ScaryCat extends Cat {
+public final class ScaryCat extends ScaryAnimal {
     public ScaryCat(String name) {
-        super(name);
+        super(AnimalType.CAT, name);
+    }
+
+    @Override
+    public void makeNoise() {
+        System.out.println("HISSSSSSSSS");
     }
 
     @Override

@@ -15,4 +15,8 @@ public class Pig extends Animal {
         System.out.println("Weeee Weeee Weeee all the way home!");
     }
 
+    @Override
+    public void eatUnderYonderTree() {
+        System.out.println("vacuum inhale noises");
+    }
 }
